@@ -1,0 +1,87 @@
+{
+  "_from": "git+https://github.com/jiahuijie/css-animator.git",
+  "_id": "css-animator@2.1.1",
+  "_inBundle": false,
+  "_integrity": "sha1-8lTH8Yhob7n+eoxOn6cEETgqZhc=",
+  "_location": "/css-animator",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/jiahuijie/css-animator.git",
+    "rawSpec": "git+https://github.com/jiahuijie/css-animator.git",
+    "saveSpec": "git+https://github.com/jiahuijie/css-animator.git",
+    "fetchSpec": "https://github.com/jiahuijie/css-animator.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/jiahuijie/css-animator.git#88ee7e0076c96d3d86c806b1945b2a2688a2a03a",
+  "_spec": "git+https://github.com/jiahuijie/css-animator.git",
+  "_where": "/Users/jiahuijie/Workspaces/liepiaoets/tickets-app",
+  "author": {
+    "name": "Fabian Pirklbauer",
+    "email": "hi@fabiandev.io"
+  },
+  "bugs": {
+    "url": "https://github.com/jiahuijie/css-animator/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Animate elements using CSS classes with support for Angular2.",
+  "devDependencies": {
+    "@angular/animations": "^4.2.2",
+    "@angular/common": "^4.2.2",
+    "@angular/compiler": "^4.2.2",
+    "@angular/compiler-cli": "^4.2.2",
+    "@angular/core": "^4.2.2",
+    "@angular/platform-browser": "^4.2.2",
+    "@angular/platform-browser-dynamic": "^4.2.2",
+    "@angular/platform-server": "^4.2.2",
+    "animate.css": "^3.5.2",
+    "css-animator": "^2.1.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-file": "^0.3.0",
+    "gulp-filter": "^5.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-typescript": "^3.1.7",
+    "gulp-uglify": "^3.0.0",
+    "lodash.assign": "^4.0.7",
+    "merge2": "^1.0.2",
+    "normalize.css": "^5.0.0",
+    "reflect-metadata": "^0.1.10",
+    "run-sequence": "^1.2.2",
+    "rxjs": "^5.0.1",
+    "source-map-loader": "^0.2.1",
+    "ts-loader": "^2.0.1",
+    "typescript": "^2.3.4",
+    "webpack": "^3.0.0",
+    "webpack-stream": "^3.2.0",
+    "zone.js": "^0.8.4"
+  },
+  "homepage": "https://github.com/jiahuijie/css-animator#readme",
+  "keywords": [
+    "angular",
+    "angular2",
+    "animation",
+    "animate",
+    "directive",
+    "css",
+    "animate.css"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "css-animator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiahuijie/css-animator.git"
+  },
+  "scripts": {
+    "build": "ngc -p tsconfig-aot.json && gulp build"
+  },
+  "version": "2.1.1"
+}
