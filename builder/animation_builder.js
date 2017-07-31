@@ -296,11 +296,11 @@ var AnimationBuilder = (function () {
             return;
         var styles = this.styles.get(element);
         element.removeAttribute('style');
-        for (var style in styles) {
-            if (styles.hasOwnProperty(style)) {
-                element.style[style] = styles[style];
-            }
-        }
+        // for (var style in styles) {
+        //     if (styles.hasOwnProperty(style)) {
+        //         element.style[style] = styles[style];
+        //     }
+        // }
         this.styles.delete(element);
     };
     AnimationBuilder.prototype.saveClasses = function (element, mode) {
